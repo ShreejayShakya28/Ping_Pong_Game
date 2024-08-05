@@ -7,8 +7,8 @@ class Ball(Turtle):
         # self.color('white')
         # self.shape('circle')
         screen = Screen()
-        screen.addshape("ball.gif")
-        self.shape("ball.gif")
+        screen.addshape("Ping_Pong_Game/ball.gif")
+        self.shape("Ping_Pong_Game/ball.gif")
         self.penup()
         self.x_move = 10
         self.y_move = 10
