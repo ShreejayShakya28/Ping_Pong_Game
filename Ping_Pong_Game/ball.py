@@ -1,11 +1,14 @@
-from turtle import Turtle
+from turtle import Turtle,Screen
 
 
 class Ball(Turtle):
     def __init__(self):
         super().__init__()
-        self.color('white')
-        self.shape('circle')
+        # self.color('white')
+        # self.shape('circle')
+        screen = Screen()
+        screen.addshape("ball.gif")
+        self.shape("ball.gif")
         self.penup()
         self.x_move = 10
         self.y_move = 10
